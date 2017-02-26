@@ -1,1 +1,1 @@
-from .models import *
+from .models import *  # flake8: noqa

@@ -3,10 +3,10 @@ from py2neo import Node
 from db.core import BaseModel
 
 
-class User(BaseModel):
+class Story(BaseModel):
 
-    def __init__(self, user_id):
-        self._node = Node(self.node_label, id=user_id)
+    def __init__(self, story_id):
+        self._node = Node(self.nodel_label, id=story_id)
 
     @property
     def node(self):
